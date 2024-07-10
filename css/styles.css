@@ -115,12 +115,12 @@ a {
 }
 
 .post {
+    padding: 188px 0 188px;
     justify-content: center; 
     background-color: #2e2f42;
 }
 
-.container-main-container {
-    padding: 188px 0 188px;
+.main-container {
     display: grid;
     place-items: center;
     text-align: center;
