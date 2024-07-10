@@ -243,6 +243,12 @@ a {
      object-fit: cover; 
 }
 
+.name-position {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    text-align: center;
+}
+
 .name {
     margin-bottom: 8px;
     font-weight: 500;
@@ -262,20 +268,17 @@ a {
     color: #434455;
 }
 
-.name-position {
-    padding-top: 32px;
-    padding-bottom: 32px;
-    text-align: center;
-}
 
 .portfolio {
-    padding: 120px 0 120px 0;
     background-color: #fff;
 }
 
+.list-container {
+    padding: 120px 0 120px; 
+}
+
 .portfolio-title {
-    padding-top: 120px;
-    margin-bottom: 72px;
+    padding-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -298,35 +301,17 @@ a {
   }
 
 .portfolio-post-text {
-    max-width: 360px;
-    margin: 0 auto;
-    overflow: hidden;
-    padding: 32px 16px;
+     padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+    text-align: left; 
     border: 1px solid #e7e9fc;
     background-color: #fff;  
     border-top: none; 
 }
 
-.img-work {
-    display: block;  
-    max-width: 100%;
-    object-fit: cover;
-}
-
-
-.portfolio-item {
-    row-gap: 48px;
-    max-width: 360px;
-    margin-bottom: 48px;
-    margin: 0 auto;
-    overflow: hidden;
-    background-color: 
-    #fff;  
-    width: calc((100% - 48px) / 3);
-}
-
 .portfolio-post {
-    margin-bottom: 8px; font-family: 
+    margin-bottom: 8px; 
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -341,6 +326,27 @@ a {
     letter-spacing: 0.02em;
     color: #434455;
 }
+
+
+.img-work {
+    display: block;  
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.portfolio-item {
+    row-gap: 48px;
+    max-width: 360px;
+    margin-bottom: 48px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: 
+    #fff;  
+    width: calc((100% - 48px) / 3);
+}
+
+
+
 
 .footer-logo {
     margin-bottom: 16px;
